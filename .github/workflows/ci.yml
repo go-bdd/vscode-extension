@@ -2,15 +2,9 @@ name: VS Code extension CI
 
 on:
   push:
-    branches:
-      # - master
-      - configure-cicd
-    #tags:
-    #  - v1
-    # file paths to consider in the event. Optional; defaults to all.
-    #paths:
-    #  - 'test/*'
-
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   build:
     runs-on: ${{ matrix.os }}
