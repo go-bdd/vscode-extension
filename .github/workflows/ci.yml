@@ -13,7 +13,7 @@ jobs:
       max-parallel: 3
       matrix:
         os: [macos-latest, windows-latest, ubuntu-18.04]
-        node-version: [.x]
+        node-version: [8.x]
         #node-version: [8.x, 10.x]
 
     steps:
