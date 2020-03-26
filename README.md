@@ -10,3 +10,17 @@ Used an Empty VSCode Extension with Tests sample from <https://github.com/micros
 * Run the `Run Extension Tests` target in the Debug View. This will:
   * Start a task `npm: watch` to compile the code
   * Run the extension integration test in a new VS Code window
+
+## CI/CD
+
+We use GitHub Actions for CI/CD.
+
+See [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) for more information.
+
+## Technology Used
+
+* npm
+* node
+* VSCode
+* TypeScript
+* GitHub Actions
